@@ -1,0 +1,38 @@
+/* Estilo personalizado para ajustar a altura das imagens do carrossel */
+.carousel-item img {
+    height: 575px;
+    object-fit: cover;
+  }
+  
+  /* Estilo personalizado para ajustar a altura máxima das logos de serviços */
+  #services .card-img-top {
+    max-height: 120px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  .card-img-top {
+    width: 100%; /* Defina a largura desejada para as imagens */
+    height: 100%; /* Defina a altura desejada para as imagens */
+    object-fit: contain; /* Ajusta as imagens para caber no contêiner, preservando a proporção */
+  }
+  
+  .nav-link:hover {
+    background-color: rgb(41, 203, 52);
+    color: white;
+  }
+
+.card {
+    width: auto;
+    height: auto;
+}
+    .conteudo {
+        height: 160px;
+    }
+    .card img {
+        width: 100%;
+        height: auto;
+        max-height: 320px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }

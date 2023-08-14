@@ -1,0 +1,321 @@
+/* FUNDO */
+.caixa {
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.caixa .fundo {
+    background-image: url(UWwKscnE.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.caixa .blur {
+    -webkit-backdrop-filter: blur(20px) brightness(100%);
+    backdrop-filter: blur(20px) brightness(100%);
+    background-color: #9d909026;
+    height: 100%;
+}
+
+/* CAIXA-CONTEUDO */
+
+    /*Imgaem-Texto*/
+
+    @media screen and (max-width: 375px) {
+        .caixa .caixa-conteudo {
+            background-color: #ffffff;
+            border: 2px solid;
+            border-color: #000000;
+            border-radius: 10px;
+            box-shadow: 0px 4px 4px #00000040;
+            height: auto;
+            width: auto;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }   
+
+            #lado-esquerdo {
+                display: none;
+            }
+
+            .lado-direito {
+                justify-content: center;
+            }
+        
+            /* OPCAO */
+        
+            .opcao {
+                display: inline-block;
+                width: 100%;
+                height: 40px;
+            }
+            
+                h3 {
+                    padding: 5px 0px;
+                    float: right;
+                }
+                
+                .btn3 {
+                    float: left;
+                    background: linear-gradient(to right, rgba(62, 122, 38, 1) 0%, rgba(255, 231, 21, 1) 50%, rgba(66, 0, 255, 1) 100%);
+                    border-radius: 10px;
+                    height: 100%;
+                }
+        
+            /* Dados */
+            
+            .dados {
+                display: flex;
+                justify-content: center;
+            }
+        
+            .btn1 {
+                background: linear-gradient(to right, rgba(62, 122, 38, 1) 0%, rgba(255, 231, 21, 1) 50%, rgba(66, 0, 255, 1) 100%);
+                border-radius: 10px;
+                height: 47px;
+                width: 293px;
+            }
+        
+            .icones .div-direita {
+                border: none;
+                height: 47px;
+            }
+        
+            .opcoes{
+                display: flex;
+                justify-content: center;
+            }
+        
+            .icones .icons {
+                height: 47px;
+                left: 0;
+                top: 0;
+                width: 60%;
+                float: left;
+            }
+        
+            .btn2 {
+                background: linear-gradient(to right, rgba(62, 122, 38, 1) 0%, rgba(255, 231, 21, 1) 50%, rgba(66, 0, 255, 1) 100%);
+                border-radius: 10px;
+                height: 47px; 
+                width: 40%;
+                float: right;
+            }        
+      }
+
+    @media screen and (max-height: 375px) {
+        .caixa .caixa-conteudo {
+            background-color: #ffffff;
+            border: 2px solid;
+            border-color: #000000;
+            border-radius: 10px;
+            box-shadow: 0px 4px 4px #00000040;
+            width: auto;
+            width: auto;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+        }
+
+        #lado-esquerdo {
+            max-width: 40vw;
+            max-height: 50vh;
+            border-radius: 5px 0px 0px 5px;
+        }
+    
+        .text-wrapper {
+            color: #ffffff;
+            font-family: "Inter-Regular", Helvetica;
+            font-size: 24px;
+            font-weight: 400;
+            height: 42px;
+            left: 18px;
+            letter-spacing: 0;
+            line-height: normal;
+            position: absolute;
+            text-align: center;
+            top: 459px;
+            width: 208px;
+        }
+
+        .lado-direito {
+            max-width: 30vw;
+            max-height: 90vh;
+        }
+    
+        /* OPCAO */
+    
+            .opcao {
+                display: inline-block;
+                height: 40px;
+                width: 100%;
+            }
+            
+            h3 {
+                border: none;
+                float: right;
+            }
+            
+            .btn3 {
+                float: left;
+                background: linear-gradient(to right, rgba(62, 122, 38, 1) 0%, rgba(255, 231, 21, 1) 50%, rgba(66, 0, 255, 1) 100%);
+                border-radius: 10px;
+            }
+    
+        /* Dados */
+        
+            .dados {
+                display: flex;
+                justify-content: center;
+            }
+        
+            .btn1 {
+                background: linear-gradient(to right, rgba(62, 122, 38, 1) 0%, rgba(255, 231, 21, 1) 50%, rgba(66, 0, 255, 1) 100%);
+                border-radius: 10px;
+                height: auto;
+                width: 120px;
+            }
+        
+            .icones .div-direita {
+                border: none;
+                height: 47px;
+            }
+        
+            .opcoes{
+                display: flex;
+                justify-content: center;
+            }
+
+            .icones .icons {
+                height: 47px;
+                left: 0;
+                top: 0;
+                width: 60%;
+                float: left;
+            }
+        
+            .btn2 {
+                background: linear-gradient(to right, rgba(62, 122, 38, 1) 0%, rgba(255, 231, 21, 1) 50%, rgba(66, 0, 255, 1) 100%);
+                border-radius: 10px;
+                height: 47px; 
+                width: 40%;
+                float: right;
+            }
+        }
+
+    @media screen and (min-width: 375px) {
+        .caixa .caixa-conteudo {
+            background-color: #ffffff;
+            border: 2px solid;
+            border-color: #000000;
+            border-radius: 10px;
+            box-shadow: 0px 4px 4px #00000040;
+            min-height: auto;
+            min-width: auto;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+        }
+
+        .lado-esquerdo {
+            position: relative;
+        }
+    
+        .text-wrapper {
+            color: #ffffff;
+            font-family: "Inter-Regular", Helvetica;
+            font-size: 24px;
+            font-weight: 400;
+            height: 42px;
+            left: 18px;
+            letter-spacing: 0;
+            line-height: normal;
+            position: absolute;
+            text-align: center;
+            top: 459px;
+            width: 208px;
+        }
+
+        .lado-direito {
+            margin: 4vh 2vw;
+        }
+    
+        /* OPCAO */
+    
+        .opcao {
+            display: flex;
+        }
+        
+        h3 {
+            border: none;
+            height: 47px;
+            float: right;
+            width: 60%;
+        }
+        
+        .btn3 {
+            float: left;
+            background: linear-gradient(to right, rgba(62, 122, 38, 1) 0%, rgba(255, 231, 21, 1) 50%, rgba(66, 0, 255, 1) 100%);
+            border-radius: 10px;
+            height: 40px;
+            width: 40%;
+        }
+    
+        /* Dados */
+        
+        .dados {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .btn1 {
+            background: linear-gradient(to right, rgba(62, 122, 38, 1) 0%, rgba(255, 231, 21, 1) 50%, rgba(66, 0, 255, 1) 100%);
+            border-radius: 10px;
+            height: 47px;
+            width: 293px;
+        }
+    
+        .icones .div-direita {
+            border: none;
+            height: 47px;
+        }
+    
+        .opcoes{
+            display: flex;
+            justify-content: center;
+        }
+        
+        .btnTwi{
+            background-image: url(src/icons/twi.png);
+        }
+        .icones .icons {
+            height: 47px;
+            left: 0;
+            top: 0;
+            width: 60%;
+            float: left;
+        }
+    
+        .btn2 {
+            background: linear-gradient(to right, rgba(62, 122, 38, 1) 0%, rgba(255, 231, 21, 1) 50%, rgba(66, 0, 255, 1) 100%);
+            border-radius: 10px;
+            height: 47px; 
+            width: 40%;
+            float: right;
+        }     
+      } 

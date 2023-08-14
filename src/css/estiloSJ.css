@@ -1,0 +1,183 @@
+body{text-align: justify; font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.container {  
+    display: grid;  
+    grid-gap: 5px;   
+}
+.conteudo{
+    width: 100%;
+    height: 90vh;
+}
+header {
+    display: block;
+  }
+  
+.fundo {
+    background-image: url(notecampo.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+@media screen and (max-width: 800px) {
+    .fundo {
+        background-image: url(notecampo.png);
+        background-position: 50% 50%;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+}
+
+.blur {
+    -webkit-backdrop-filter: blur(3px) brightness(100%);
+    backdrop-filter: blur(3px) brightness(100%);
+    background-color: #9d909026;
+    height: 100%;
+}
+
+/* TEXTO */
+
+.container {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-top: -85vh;
+    margin-right: 5vw;
+    float: right;
+}
+
+.texto {
+    max-width: 40vh;
+    height: auto;
+}
+
+/* Estilo personalizado para ajustar a altura das imagens do carrossel */
+.carousel-item img {
+    height: 575px;
+    object-fit: cover;
+  }
+  
+  /* Estilo personalizado para ajustar a altura máxima das logos de serviços */
+  #services .card-img-top {
+    max-height: 120px;
+    width: auto;
+    object-fit: contain;
+  }
+  .card {
+    height: 580px;
+    margin: 7px;
+  } 
+  
+  .card-img-top {
+    width: 100%; /* Defina a largura desejada para as imagens */
+    height: 100%; /* Defina a altura desejada para as imagens */
+    object-fit: contain; /* Ajusta as imagens para caber no contêiner, preservando a proporção */
+  }
+  
+  .card-body {
+    height: 500px; /* Ajuste a altura do corpo do card conforme necessário */
+  }
+  .nav-link:hover {
+    background-color: rgb(41, 203, 52);
+    color: white;
+  }
+  
+  @media screen and (max-width: 430px){
+    .carousel {
+      width: 100%;
+      height: auto;
+    }
+  
+      .carousel-item img {
+        width: 100vw;
+        height: 220px;
+      }
+  
+    .cold-md4 {
+      width: 100%;
+      height: 400px;
+    }
+  
+      .card-body {
+        width: 100%;
+        height: auto;
+      }
+  }
+  
+  @media screen and (min-width: 430px) and (max-width: 930px) {
+    .navbar {
+      width: 100%;
+      height: 15vh;
+    }
+      .navbar-brand img {
+        width: auto;
+        height: 10vh;
+      }
+  
+      .navbar-toggler {
+        width: auto;
+        height: 10vh;
+      }
+  
+      .carousel-item {
+        width: 100%;
+        height: 85vh;
+        overflow: hidden;
+      }
+  
+      .carousel-item img {
+        width: 100%;
+        height: 100%;
+      }
+  
+    .cold-md4 {
+      width: 100%;
+      height: 400px;
+    }
+  
+      .card-body {
+        width: 100%;
+        height: auto;
+      }
+  }
+  
+  @media screen and (min-width: 667px) and (max-width: 930px) {
+    .navbar {
+      width: 100%;
+      height: 15vh;
+    }
+      .navbar-brand img {
+        width: auto;
+        height: 10vh;
+      }
+  
+      .navbar-toggler {
+        width: auto;
+        height: 10vh;
+      }
+  
+      .carousel-item {
+        width: 100%;
+        height: 85vh;
+        overflow: hidden;
+      }
+  
+      .carousel-item img {
+        width: 100%;
+        height: 100%;
+      }
+  
+    .cold-md4 {
+      width: 100%;
+      height: 400px;
+    }
+  
+      .card-body {
+        width: 100%;
+        height: auto;
+      }
+  }
+  
